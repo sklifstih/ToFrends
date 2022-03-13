@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ToFrends
 {
-    internal class Class2
+    internal class Class4
     {
     }
 }

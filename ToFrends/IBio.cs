@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace ToFrends
 {
-    interface IBio
+    internal interface IBio
     {
-        object City { get; set; }
-        object Country { get; set; }
-        string Request { get; set; }
-        object Ideas { get; set; }
+        string Name { get; }
+        object City { get; }
+        object Country { get; }
+        string Request { get; }
+        object Ideas { get; }
 
     }
 }

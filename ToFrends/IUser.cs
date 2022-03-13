@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 namespace ToFrends
 {
 
-    interface IUser
+    internal interface IUser
     {
-        string Name { get; set; }
-        string Adress { get; set; }
-        string Login { get; set; }
-        string Pass { get; set; }
+ 
+        string Adress { get;  }
+        string Login { get;  }
+        string Pass { get;  }
 
     }
 

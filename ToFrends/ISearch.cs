@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ToFrends
 {
-    internal class Class1
+    internal interface ISearch
     {
+        public void ToSearch ();
+        object GeoData { get; }
+
     }
 }

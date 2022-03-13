@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ToFrends
 {
-    interface IChat
+    internal interface IChat
     {
-        object Messang { get; set; }
+        object Messang { get; }
         public object GetMessan();
         public void SendMessan();
-        object Files { get; set; }
+        object Files { get; }
 
     }
 }
